@@ -17,58 +17,40 @@ class App extends Component{
           <div class="contenedor-imagenes">
               <div class="imagen">
                   <img src={image1} alt="" />
-                  <div class="overlay">
-                      <h2>Suscribete</h2>
-                  </div>
               </div>
               <div class="imagen">
                   <img src={image2} alt="" />
-                  <div class="overlay">
-                      <h2>Suscribete</h2>
-                  </div>
               </div>
               <div class="imagen">
                   <img src={image3} alt="" />
-                  <div class="overlay">
-                      <h2>Suscribete</h2>
-                  </div>
               </div>
               <div class="imagen">
                   <img src={image4} alt="" />
-                  <div class="overlay">
-                      <h2>Suscribete</h2>
-                  </div>
               </div>
               <div class="imagen">
                   <img src="img/1 (6).jpg" alt="" />
-                  <div class="overlay">
-                      <h2>Suscribete</h2>
-                  </div>
               </div>
               <div class="imagen">
                   <img src="img/1 (7).jpg" alt="" />
-                  <div class="overlay">
-                      <h2>Suscribete</h2>
-                  </div>
               </div>
               <div class="imagen">
                   <img src="img/1 (8).jpg" alt="" />
-                  <div class="overlay">
-                      <h2>Suscribete</h2>
-                  </div>
               </div>
               <div class="imagen">
                   <img src="img/1 (9).jpg" alt="" />
+              </div>
+              <div class="imagen">
+                  <img src="img/1 (10).jpg" alt="" />
+              </div>
+
+              {/** 
+                <div class="imagen">
+                  <img src={image1} alt="" />
                   <div class="overlay">
                       <h2>Suscribete</h2>
                   </div>
               </div>
-              <div class="imagen">
-                  <img src="img/1 (10).jpg" alt="" />
-                  <div class="overlay">
-                      <h2>Suscriberte</h2>
-                  </div>
-              </div>
+                **/}
           </div>
       </div>
     );
