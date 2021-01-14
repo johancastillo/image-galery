@@ -7,6 +7,13 @@ import image2 from './images/2.webp';
 import image3 from './images/3.webp';
 import image4 from './images/4.webp';
 
+import icon1 from './images/icon1.svg'
+import icon2 from './images/icon2.svg'
+import icon3 from './images/icon3.svg'
+import icon4 from './images/icon4.svg'
+import icon5 from './images/icon5.svg'
+import icon6 from './images/icon6.svg'
+
 
 class App extends Component{
   render(){
@@ -27,21 +34,33 @@ class App extends Component{
               <div class="imagen">
                   <img src={image4} alt="" />
               </div>
+
+
               <div class="imagen">
-                  <img src="img/1 (6).jpg" alt="" />
+                  <img src={icon1} alt="" />
               </div>
+
               <div class="imagen">
-                  <img src="img/1 (7).jpg" alt="" />
+                  <img src={icon2} alt="" />
               </div>
+
               <div class="imagen">
-                  <img src="img/1 (8).jpg" alt="" />
+                  <img src={icon3} alt="" />
               </div>
+
               <div class="imagen">
-                  <img src="img/1 (9).jpg" alt="" />
+                  <img src={icon4} alt="" />
               </div>
+
               <div class="imagen">
-                  <img src="img/1 (10).jpg" alt="" />
+                  <img src={icon5} alt="" />
               </div>
+
+
+              <div class="imagen">
+                  <img src={icon6} alt="" />
+              </div>
+              
 
               {/** 
                 <div class="imagen">
