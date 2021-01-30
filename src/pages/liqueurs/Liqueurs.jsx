@@ -7,7 +7,7 @@ import image5 from '../../images/liqueurs/5.png'
 
 const Liqueurs = () => {
     return (
-        <div class="gallery">
+        <div className="gallery">
             <img src={image1} alt="" />
             <img src={image2} alt="" />
             <img src={image3} alt="" />
